@@ -1,0 +1,25 @@
+{
+  "name": "itinerary",
+  "version": "1.0.0",
+  "description": "Itinerary app for travelers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "react-dev": "webpack-dev-server -d"
+  },
+  "author": "Crystal Low",
+  "license": "ISC",
+  "devDependencies": {
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "dependencies": {
+    "@types/react-dom": "^16.9.5",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.7.5"
+  }
+}
